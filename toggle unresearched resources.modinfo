@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="07020a3a-010a-4c49-bd4c-7e4034331888" version="1">
+    <Properties>
+        <Name>Toggle Unresearched Resources</Name>
+        <Description>Provides a command to toggle visibility with unresearched resources.</Description>
+        <Teaser>Reveals locations for unresearched resources.</Teaser>
+        <Authors>satoon101</Authors>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+
+    <InGameActions>
+
+        <AddUserInterfaces id="ToggleUnresearcedResourcesUI">
+            <Properties>
+                <Context>InGame</Context>
+            </Properties>
+            <File>scripts/UI/ToggleUnresearcedResources.xml</File>
+        </AddUserInterfaces>
+
+    </InGameActions>
+
+    <Files>
+        <File>scripts/UI/ToggleUnresearcedResources.lua</File>
+        <File>scripts/UI/ToggleUnresearcedResources.xml</File>
+    </Files>
+</Mod>
